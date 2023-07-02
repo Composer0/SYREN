@@ -23,6 +23,7 @@ a:hover {
   animation: slide 50s linear infinite;
   will-change: background-position;
   z-index: -1;
+  background-size: cover;
 }
 
 #playlist li:first-child {
@@ -36,7 +37,7 @@ a:hover {
   border-style: solid;
 }
 
-input[type='file'] {
+input[type="file"] {
   margin-top: 20px;
 }
 
