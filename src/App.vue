@@ -6,7 +6,7 @@
     <nav class="container mx-auto flex justify-start items-center py-5 px-4">
       <!-- App Name -->
       <a class="text-white font-bold uppercase text-2xl mr-4" href="#">Music</a>
-
+      <!-- !Pinia is a libarary used for storing data in one central locaition. Using this library allows us to pass down data without it having to be from component to component. Imagine if you have to pass data down 10x. That's a lot to clean up if something changes. For Vue Pinia is the most popular for handling state/data. -->
       <div class="flex flex-grow items-center">
         <!-- Primary Navigation -->
         <ul class="flex flex-row mt-1">
@@ -32,9 +32,10 @@
       <div class="text-white main-header-content">
         <h1 class="font-bold text-5xl mb-5">Listen to Great Music!</h1>
         <p class="w-full md:w-8/12 mx-auto">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus et dolor mollis, congue
-          augue non, venenatis elit. Nunc justo eros, suscipit ac aliquet imperdiet, venenatis et
-          sapien. Duis sed magna pulvinar, fringilla lorem eget, ullamcorper urna.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus et
+          dolor mollis, congue augue non, venenatis elit. Nunc justo eros,
+          suscipit ac aliquet imperdiet, venenatis et sapien. Duis sed magna
+          pulvinar, fringilla lorem eget, ullamcorper urna.
         </p>
       </div>
     </div>
@@ -272,7 +273,10 @@
       <!-- Scrub Container  -->
       <div class="w-full h-2 rounded bg-gray-200 relative cursor-pointer">
         <!-- Player Ball -->
-        <span class="absolute -top-2.5 -ml-2.5 text-gray-800 text-lg" style="left: 50%">
+        <span
+          class="absolute -top-2.5 -ml-2.5 text-gray-800 text-lg"
+          style="left: 50%"
+        >
           <i class="fas fa-circle"></i>
         </span>
         <!-- Player Progress Bar-->
@@ -296,7 +300,9 @@
       </div>
 
       <!-- This element is to trick the browser into centering the modal contents. -->
-      <span class="hidden sm:inline-block sm:align-middle sm:h-screen">&#8203;</span>
+      <span class="hidden sm:inline-block sm:align-middle sm:h-screen"
+        >&#8203;</span
+      >
 
       <div
         class="inline-block align-bottom bg-white rounded-lg text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-lg sm:w-full"
@@ -322,7 +328,9 @@
               >
             </li>
             <li class="flex-auto text-center">
-              <a class="block rounded py-3 px-4 transition" href="#">Register</a>
+              <a class="block rounded py-3 px-4 transition" href="#"
+                >Register</a
+              >
             </li>
           </ul>
 
@@ -412,7 +420,10 @@
             </div>
             <!-- TOS -->
             <div class="mb-3 pl-6">
-              <input type="checkbox" class="w-4 h-4 float-left -ml-6 mt-1 rounded" />
+              <input
+                type="checkbox"
+                class="w-4 h-4 float-left -ml-6 mt-1 rounded"
+              />
               <label class="inline-block">Accept terms of service</label>
             </div>
             <button
